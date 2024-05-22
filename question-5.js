@@ -19,3 +19,10 @@ const products = [
 
 const promotionCode = "";
 // เริ่มเขียนโค้ดตรงนี้
+function calculateTotalPrice(products, promotionCode) {
+  if (products.name === "เสื้อยืด") {
+    return (cost = products.price * products.quantity);
+  }
+}
+
+console.log();
