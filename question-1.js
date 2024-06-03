@@ -18,4 +18,5 @@ myTodo.forEach((item) => {
 
 let deleteTodo = myTodo.splice(4, 1);
 
-console.log(myTodo[3].todo);
+let lastTodo = myTodo[myTodo.length - 1];
+console.log(`To-do id: ${lastTodo.id}, ${lastTodo.todo}`);

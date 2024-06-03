@@ -17,6 +17,6 @@ console.log(minQuantity);
 console.log(
   "สินค้าที่มีจำนวนต่ำที่สุดในคลังสินค้าคือ " +
     minQuantity.quantity.name +
-    "ซึ่งมี " +
+    " ซึ่งมี " +
     minQuantity.quantity.quantity
 );
