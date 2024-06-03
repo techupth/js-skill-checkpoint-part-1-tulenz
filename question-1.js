@@ -6,3 +6,17 @@ const myTodo = [
   { id: 4, todo: "Wash dishes" },
 ];
 // เริ่มเขียนโค้ดตรงนี้
+
+let newTodo = { id: 5, todo: "Walk the dog" };
+myTodo.push(newTodo);
+
+myTodo.forEach((item) => {
+  if (item.id === 4) {
+    item.todo = "Go to the gym";
+  }
+});
+
+let deleteTodo = myTodo.splice(4, 1);
+
+let lastTodo = myTodo[myTodo.length - 1];
+console.log(`To-do id: ${lastTodo.id}, ${lastTodo.todo}`);
